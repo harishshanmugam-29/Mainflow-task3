@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="task 3.css">
+    <link rel="homepage" href="./home.html"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" referrerpolicy="no-referrer" />
+    <title>Register page</title>
+</head>
+<body>
+    <div class="Register" style="border-radius: 20px;">
+        <div class="heading">
+            <h1>REGISTER</h1>
+        </div>
+        <div class="data">
+            <form action="conn.php" method="post">
+                <label for="name" ><h3>User Name</h3></label>
+                <input type="text" size="30px" name="n" placeholder="Enter your name" required><br>
+                <label for="email" ><h3>Email</h3></label>
+                <input type="email" size="30px" name="e" placeholder="Enter your email" required><br>
+                <label for="password" ><h3>Password</h3></label>
+                <input type="password" size="31px" name="p" placeholder="Enter your  password" required><br>
+                <label for="c_password" ><h3>Confirm Password</h3></label>
+                <input type="password" size="31px" name="cp" placeholder="Enter your  password" required><br><br>
+                <input type="submit" value="submit" ></input>
+                <input type="reset" value="cancel" ></input>
+            </form>
+            <p>Already have an account?<a href="login.html">LOGIN</a></p>
+        </div>
+    </div>
+</body>
+</html>

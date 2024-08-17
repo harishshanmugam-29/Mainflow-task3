@@ -1,0 +1,34 @@
+.login{
+    height: 600px;
+    width: 500px;
+    border: black solid;
+    margin: auto;
+    background-color: red;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    height: 100px;
+    background-color: aqua;
+   
+    border-radius: 18px;
+    border: black solid;
+}
+.data{
+    position: relative;
+    left: 120px;
+    top: 40px;
+}
+.Register{
+    height: 600px;
+    width: 500px;
+    border: black solid;
+    margin: auto;
+    background-color: red;
+    border-radius: 20px;
+}
+.data a:hover{
+    color: black;
+}
+
+

@@ -1,0 +1,267 @@
+.header{
+    height: 126px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(30, 25, 21);
+    border: black solid;
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
+   
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    float: left;
+}
+.name
+{
+height: 90px;
+width:1400px;
+float: right;
+text-align: center;
+}
+.n{
+position:relative;
+font-family:"Brush Script MT";
+font-size:38px;
+color:red;
+top: 20px;
+}
+.menu{
+    height: 40px;
+    width: 1500px;
+    background-color: black;
+    float: left;
+}
+.menu ul{
+margin:0px;
+padding:0px;
+}
+.menu li
+{
+display:inline;
+padding: 10px;
+}
+.menu a
+{
+text-decoration:none;
+font-size:24px;
+color:white;
+
+padding: 10px;
+word-spacing: 20px;
+
+}
+.body{
+    margin-left: 2%;
+    margin-right: auto;
+}
+image{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 70%;
+}
+.image{
+    height: 600px;
+    width: 1500px;
+}
+h1{
+    text-align: center;
+    font-family: ROG Fonts;
+    color: red;
+}
+.h3{
+    text-align: center;
+}
+.content{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 22px;
+}
+.dropdown{
+    height: 50px;
+    width: 80px;
+    font-size: 32px;
+}
+.dropdown-content a{
+    display: block;
+    color: black;
+    width: 100px;
+    border: black solid;
+}
+.form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.contactus input,
+.contactus textarea {
+     margin: 10px 0 0 0;
+     width: 100%;
+     min-height: 2em;
+     background-color: #ada9a9;
+     border: 1px solid #000000;
+     color: #0f0101;
+     border-radius: 10px;
+  
+}
+input{
+    width: 100%;
+}
+.contactus{
+    display: flex;
+    justify-content: space-evenly;
+    height:400px;
+    width:500px;
+    position: relative; 
+    border: black solid;
+    left: 480px;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:50%;
+    width:45%;
+    border: 0;
+    padding-top: 6%;
+}
+.contact-container label {
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 8px;
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    padding: 10px 20px;
+    background-color: rgb(30, 30, 30);
+    color:white; 
+    font-family: Goudy Stout;
+    
+}
+.footer-container{
+    background-color: rgb(30, 25, 21);
+    padding-bottom: 2rem;
+
+}
+
+.footer{
+    width:1500px;
+    height: 300px;
+    background-color: rgb(30, 25, 21);
+    color: #090909;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+
+}
+.footer-heading h2{
+    margin-bottom: 2rem;
+    
+    
+}
+
+.footer-heading a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+
+.footer-heading a:hover{
+    color:rgb(0, 0, 0);
+    transition: 0.3s ease-out;
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; 
+    justify-content: space-evenly;
+  }
+  
+  .social-icons a {
+    font-size: 24px; 
+    color: #000;
+  }
+  
+  .social-icons a:hover {
+    color: rgb(0, 0, 0); 
+  }
+  .dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 0px;
+    font-size: 17px;
+    border: none;
+    left: 10px
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: none;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 9px 0px 9px 10px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid  rgb(255, 0, 0);
+    border-radius: 8px;
+    background-color: #504e4e;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: red;
+    color: #ffffff;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+.gallery {
+    height: 600px;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 90%;
+    padding-left: 5%;
+    text-align: center ;
+    margin: auto;
+}
+.old-price {
+    font-size: 0.8em;
+    text-decoration: line-through;
+    color: #888;
+    font-style: initial;
+    display: inline;
+}
+.figcaption{
+    text-align: center;
+}
